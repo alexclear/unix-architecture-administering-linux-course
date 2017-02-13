@@ -9,7 +9,6 @@
 * Processor rings
 * History of Linux distributions
 * Anatomy of a Unix system again: everything is a file
-
 * Filesystems: file hierarchy, FHS
 * /etc/fstab, /etc/mtab, caveats
 * Filesystems: superblock, inodes, blocks
