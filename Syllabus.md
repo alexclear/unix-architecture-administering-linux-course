@@ -28,6 +28,9 @@
 * Users: superusers (UID 0 and mapping of names to UIDs) and ordinary users
 * Users: UNIX security model
 * UNIX security model (filesystems): traditional rights
+* File permissions and flags: rwx bits
+* File permissions and flags: SUID and SGID bit
+* File permissions and flags: sticky bit
 * UNIX security model (filesystems): extended attributes, SELinux and other MAC/RBAC models
 * UNIX security model (filesystems): POSIX ACLs
 * AppArmor and its caveats
