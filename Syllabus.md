@@ -16,12 +16,25 @@
 * Filesystems: ext2, ext3, ext4, notion of journaling, different journaling modes, barriers
 * ext\*: reserved for root
 * Filesystems: blktrace
+* Filesystems: ZFS, CoW, ARC, snapshots
+* smartctl, SMART long tests
 
 ## Day 2
-* Filesystems: traditional rights
-* Filesystems: block cache
+* Filesystems: snapshots as a part of DRP strategy
+* Filesystems: BTRFS
 * Filesystems: /dev, /proc, /sys
 * Filesystems: fdisk, cfdisk, parted, ADF drives
+* Users: /etc/passwd and its fields
+* Users: superusers (UID 0 and mapping of names to UIDs) and ordinary users
+* Users: UNIX security model
+* UNIX security model (filesystems): traditional rights
+* UNIX security model (filesystems): extended attributes, SELinux and other MAC/RBAC models
+* UNIX security model (filesystems): POSIX ACLs
+* AppArmor and its caveats
+* Memory model: used memory, swap and RSS
+* Memory model: zram
+* Memory model: KSM and UKSM
+* Memory model (filesystems): block cache
 
 ## Day 3
 
