@@ -24,6 +24,7 @@
 * Filesystems: BTRFS
 * Filesystems: /dev, /proc, /sys
 * Filesystems: fdisk, cfdisk, parted, ADF drives
+* Filesystems: 'file' command
 * Users: /etc/passwd and its fields
 * Users: superusers (UID 0 and mapping of names to UIDs) and ordinary users
 * Users: UNIX security model
@@ -31,13 +32,24 @@
 * File permissions and flags: rwx bits
 * File permissions and flags: SUID and SGID bit
 * File permissions and flags: sticky bit
-* UNIX security model (filesystems): extended attributes, SELinux and other MAC/RBAC models
+* UNIX security model (filesystems): extended attributes, SELinux and other MAC/RBAC frameworks (GRSecurity, Tomoyo)
 * UNIX security model (filesystems): POSIX ACLs
 * AppArmor and its caveats
 * Memory model: used memory, swap and RSS
 * Memory model: zram
 * Memory model: KSM and UKSM
 * Memory model (filesystems): block cache
+* Processes and IPC: starting a program from a binary file
+* Processes and IPC: dynamic linking and dynamic linker/loader
+* Processes and IPC: magic numbers
+* Processes and IPC: standard file descriptors
+* Processes and IPC: parents and children, fork() and exec(), CoW again
+* Processes and IPC: pipes
+* Processes and IPC: signals and signal handlers, 'kill' command, SIGKILL
+* Processes and IPC: standard signals
+* Processes and IPC: multithreading, 1:1 and N:M threads
+* Processes and IPC: limits (and /proc/XXXX/limits), ulimit, /etc/security/limits.conf
+* Processes and IPC: shmem, semaphores, UNIX sockets
 
 ## Day 3
 
