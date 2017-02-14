@@ -28,6 +28,8 @@
 * Users: /etc/passwd and its fields
 * Users: superusers (UID 0 and mapping of names to UIDs) and ordinary users
 * Users: UNIX security model
+* UNIX security model: PAM
+* UNIX security model: su and sudo
 * UNIX security model (filesystems): traditional rights
 * File permissions and flags: rwx bits
 * File permissions and flags: SUID and SGID bit
