@@ -52,6 +52,7 @@
 * Processes and IPC: multithreading, 1:1 and N:M threads
 * Processes and IPC: limits (and /proc/XXXX/limits), ulimit, /etc/security/limits.conf
 * Processes and IPC: shmem, semaphores, UNIX sockets
+* Homework: Vagrant
 
 ## Day 3
 
