@@ -43,6 +43,8 @@
 * Processes and IPC: dynamic linking and dynamic linker/loader
 * Processes and IPC: magic numbers
 * Processes and IPC: standard file descriptors
+* Processes and files: file descriptors, standard read/write API
+* Processes and files: ioctls and asynchronous processing
 * Processes and IPC: parents and children, fork() and exec(), CoW again
 * Processes and IPC: pipes
 * Processes and IPC: signals and signal handlers, 'kill' command, SIGKILL
