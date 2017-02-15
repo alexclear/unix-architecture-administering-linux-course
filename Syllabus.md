@@ -58,6 +58,26 @@
 
 ## Day 3
 
+* Processes and IPC: niceness, 'nice' and 'ionice' commands
+* Linux boot process: BIOS and UEFI
+* Linux boot process: BIOSes on various hardware
+* Linux boot process: MBR, format of MBR and GPT
+* Linux boot process: partition records
+* Linux boot process: syslinux, LILO and GRUB
+* Linux boot process: GRUB1 and its config, GRUB2 and its config
+* Linux boot process: real and protected modes
+* Linux boot process: /dev static entries, devfs and udev
+* Linux boot process: PCI IDs and USB IDs, automatic hardware detection and configuration
+* Linux boot process: init and /etc/inittab
+* Linux boot process: BSD initscripts and SysV initscripts, runlevels
+* Linux boot process: initrd and initramfs
+* Linux boot process: anatomy of initrd, kernel modules, dracut
+* Linux boot process: concurrency, bootchart, bootlog, concurrent initscripts
+* Linux boot process: upstart, OpenRC, SMF
+* Supervisors: daemontools, runit, god, bluepill, eye, forever, supervisord
+* Linux boot process: systemd
+* Linux boot process: cgroups and namespaces, their relation to systemd
+
 ## Day 4
 
 ## Day 5
