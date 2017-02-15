@@ -77,6 +77,24 @@
 * Supervisors: daemontools, runit, god, bluepill, eye, forever, supervisord
 * Linux boot process: systemd
 * Linux boot process: cgroups and namespaces, their relation to systemd
+* Logging: syslog
+* Networking: basic network configuration
+* Networking: TCP and UDP
+* Networking: Network Manager
+* Networking: ethtool
+* Networking: MAC address
+* Networking: ifconfig
+* Networking: 'ip' command
+* Networking: routing
+* Networking: GRE tunnels
+* Networking: IPsec
+* Networking: OpenVPN (L2 and L3)
+* Networking: tcpdump and Wireshark
+* Networking: NFS
+* Networking: Samba
+* Networking: LDAP
+* Networking: Apache and nginx
+* Networking: netfilter and iptables
 
 ## Day 4
 
