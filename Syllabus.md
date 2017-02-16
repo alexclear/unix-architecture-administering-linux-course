@@ -98,7 +98,10 @@
 
 ## Day 4
 * Networking: netfilter and iptables
+* Networking: port knocking
+* Networking: ipset
 * Networking: NAT (SNAT, DNAT) and masquerading
+* Networking: conntrack table
 * Networking: FTP
 * Networking: SSH, scp and SFTP
 * Networking: ssh-agent
@@ -131,6 +134,6 @@
 * Anatomy of a git repository
 * Git: working copy, non-bare and bare repositories
 * Git: branching, merging and rebasing
-* Git flow
 
 ## Day 5
+* Git flow
