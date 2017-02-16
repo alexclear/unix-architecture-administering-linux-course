@@ -78,6 +78,7 @@
 * Linux boot process: systemd
 * Linux boot process: cgroups and namespaces, their relation to systemd
 * Logging: syslog
+* Logging: ELK, Graylog, Splunk
 * Networking: basic network configuration
 * Networking: TCP and UDP
 * Networking: Network Manager
