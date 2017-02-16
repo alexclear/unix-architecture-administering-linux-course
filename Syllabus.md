@@ -95,9 +95,42 @@
 * Networking: NFS
 * Networking: Samba
 * Networking: LDAP
-* Networking: Apache and nginx
-* Networking: netfilter and iptables
 
 ## Day 4
+* Networking: netfilter and iptables
+* Networking: NAT (SNAT, DNAT) and masquerading
+* Networking: FTP
+* Networking: SSH, scp and SFTP
+* Networking: ssh-agent
+* Networking: HTTP
+* Networking: Apache and nginx
+* Networking: rsync and rsyncd
+* Networking: netcat
+* A word on scripting (dynamic vs static languages)
+* Bash scripting: interactive and non-interactive mode, config files
+* Bash scripting: variables and exporting
+* Bash scripting: built-ins
+* Bash scripting: globs
+* Bash scripting: control structures (if, case, for)
+* Bash scripting: test command and test built-in
+* Bash scripting: magic variables ($? and so on)
+* Bash scripting: debugging
+* Bash scripting: arrays
+* Writing a simple program in bash
+* >, >> and <
+* Unix commands: wc, cat, cut, sort
+* Unix commands: awk and sed 
+* Unix commands: find
+* Unix commands: xargs
+* Bash scripting: defensive programming
+* A word on Perl scripting
+* Source control systems: non-distribited and distribiuted
+* Source control systems: git
+* Creating and cloning a git repo
+* Git: config variables and origin repos
+* Anatomy of a git repository
+* Git: working copy, non-bare and bare repositories
+* Git: branching, merging and rebasing
+* Git flow
 
 ## Day 5
