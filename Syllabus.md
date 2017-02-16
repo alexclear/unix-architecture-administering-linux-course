@@ -85,6 +85,7 @@
 * Networking: MAC address
 * Networking: ifconfig
 * Networking: 'ip' command
+* Networking: DNS
 * Networking: routing
 * Networking: GRE tunnels
 * Networking: IPsec
