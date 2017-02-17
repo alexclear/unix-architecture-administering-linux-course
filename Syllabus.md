@@ -57,7 +57,6 @@
 * Homework: Vagrant
 
 ## Day 3
-
 * Processes and IPC: niceness, 'nice' and 'ionice' commands
 * Linux boot process: BIOS and UEFI
 * Linux boot process: BIOSes on various hardware
@@ -149,6 +148,8 @@
 * Observability: atop
 * Observability: mpstat
 * Observability: iostat
+* Observability: pidstat
+* Observability: iotop
 * Observability: cat /proc/interrupts
 * Observability: Munin
 * Observability: Zabbix and time series databases
