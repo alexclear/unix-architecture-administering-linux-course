@@ -153,6 +153,7 @@
 * Observability: Munin
 * Observability: Zabbix and time series databases
 * Observability: Graphite stack
+* Observability: netdata
 * Observability: perf
 * Observability: DTrace
 * Observability: BPF and BPF tools
@@ -161,6 +162,9 @@
 * Observability: flamegraphs and dynamic languages
 * Homework: show your code
 * Homework: writing a reference implementation
+* A word on package managers
+* RPM and dpkg
+* Docker and Nix
 * Homework: creating a Debian package using FPM
 * Homework: creating a Debian package using checkinstall
 * Homework: creating a Debian repo
