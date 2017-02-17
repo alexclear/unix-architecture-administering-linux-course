@@ -137,3 +137,34 @@
 
 ## Day 5
 * Git flow
+* A word on observability
+* Linux observability tools: Brendan Gregg's matrix
+* Tracing: strace
+* Tracing: ltrace
+* Tracing: ptrace() call
+* gdb and debug symbols
+* Tracing: Poor Man's Profiler
+* core files and backtrace gdb command
+* Observability: top
+* Observability: atop
+* Observability: mpstat
+* Observability: iostat
+* Observability: cat /proc/interrupts
+* Observability: Munin
+* Observability: Zabbix and time series databases
+* Observability: Graphite stack
+* Observability: perf
+* Observability: DTrace
+* Observability: BPF and BPF tools
+* Observability: flamegraphs
+* Observability: kaldur
+* Observability: flamegraphs and dynamic languages
+* Homework: show your code
+* Homework: writing a reference implementation
+* Homework: creating a Debian package using FPM
+* Homework: creating a Debian package using checkinstall
+* Homework: creating a Debian repo
+* Homework: stress testing using ab
+* Homework: stress testing using siege
+* Homework: writing an upstart service definition file
+* Homework: writing a systemd unit file
