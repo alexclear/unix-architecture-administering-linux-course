@@ -59,43 +59,43 @@
 * Домашняя работа: система Vagrant
 
 ## День 3
-* Processes and IPC: niceness, 'nice' and 'ionice' commands
-* Linux boot process: BIOS and UEFI
-* Linux boot process: BIOSes on various hardware
-* Linux boot process: MBR, format of MBR and GPT
-* Linux boot process: partition records
-* Linux boot process: syslinux, LILO and GRUB
-* Linux boot process: GRUB1 and its config, GRUB2 and its config
-* Linux boot process: real and protected modes
-* Linux boot process: /dev static entries, devfs and udev
-* Linux boot process: PCI IDs and USB IDs, automatic hardware detection and configuration
-* Linux boot process: init and /etc/inittab
-* Linux boot process: BSD initscripts and SysV initscripts, runlevels
-* Linux boot process: initrd and initramfs
-* Linux boot process: anatomy of initrd, kernel modules, dracut
-* Linux boot process: concurrency, bootchart, bootlog, concurrent initscripts
-* Linux boot process: upstart, OpenRC, SMF
-* Supervisors: daemontools, runit, god, bluepill, eye, forever, supervisord
-* Linux boot process: systemd
-* Linux boot process: cgroups and namespaces, their relation to systemd
-* Logging: syslog
-* Logging: ELK, Graylog, Splunk
-* Networking: basic network configuration
-* Networking: TCP and UDP
-* Networking: Network Manager
-* Networking: ethtool
-* Networking: MAC address
-* Networking: ifconfig
-* Networking: 'ip' command
-* Networking: DNS
-* Networking: routing
-* Networking: GRE tunnels
-* Networking: IPsec
-* Networking: OpenVPN (L2 and L3)
-* Networking: tcpdump and Wireshark
-* Networking: NFS
-* Networking: Samba
-* Networking: LDAP
+* Процессы и межпроцессное взаимодействие: понятие niceness, утилиты nice и ionice
+* Процесс загрузки Linux: BIOS и UEFI
+* Процесс загрузки Linux: BIOS различных производителей и устройств
+* Процесс загрузки Linux: MBR, формат записей MBR и GPT
+* Процесс загрузки Linux: записи в таблице разделов
+* Процесс загрузки Linux: загрузчики syslinux, LILO и GRUB
+* Процесс загрузки Linux: загрузчик GRUB1 и его конфигурация, загрузчик GRUB2 и его конфигурация
+* Процесс загрузки Linux: реальный и защищенный режимы
+* Процесс загрузки Linux: статические файлы в /dev, подсистемы devfs и udev
+* Процесс загрузки Linux: идентификаторы PCI и USB устройств, автоматическое определение и конфигурирование аппаратных устройств
+* Процесс загрузки Linux: процесс init и файл /etc/inittab
+* Процесс загрузки Linux: BSD initscripts и SysV initscripts, runlevels
+* Процесс загрузки Linux: файлы initrd и initramfs
+* Процесс загрузки Linux: внутреннее устройство файла initrd, модули ядра, фреймворк dracut
+* Процесс загрузки Linux: параллельная загрузка, утилита bootchart, файл bootlog, параллельные инитскрипты
+* Процесс загрузки Linux/Unix: фреймворки upstart, OpenRC, SMF
+* Различные супервизоры: daemontools, runit, god, bluepill, eye, forever, supervisord
+* Процесс загрузки Linux: systemd
+* Процесс загрузки Linux: cgroups и namespaces, взаимоотношение cgroups, namespaces и systemd
+* Логирование: syslog
+* Логирование: ELK, Graylog, Splunk
+* Сетевое взаимодействие: основы конфигурации сети
+* Сетевое взаимодействие: TCP и UDP
+* Сетевое взаимодействие: Network Manager
+* Сетевое взаимодействие: утилита ethtool
+* Сетевое взаимодействие: MAC-адрес
+* Сетевое взаимодействие: утилита ifconfig
+* Сетевое взаимодействие: утилита ip
+* Сетевое взаимодействие: подсистема DNS и разрешение имен
+* Сетевое взаимодействие: маршрутизация
+* Сетевое взаимодействие: GRE и VXLAN туннели
+* Сетевое взаимодействие: виртуальные частные сети IPsec
+* Сетевое взаимодействие: виртуальные частные сети OpenVPN (второго и третьего уровня)
+* Сетевое взаимодействие: утилиты tcpdump и Wireshark
+* Сетевое взаимодействие: NFS
+* Сетевое взаимодействие: Samba
+* Сетевое взаимодействие: LDAP
 
 ## День 4
 * Networking: netfilter and iptables
