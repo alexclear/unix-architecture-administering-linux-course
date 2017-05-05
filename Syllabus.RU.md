@@ -137,41 +137,41 @@
 * Git: branching, merging и rebasing
 
 ## День 5
-* Git flow
-* A word on observability
-* Linux observability tools: Brendan Gregg's matrix
-* Tracing: strace
-* Tracing: ltrace
-* Tracing: ptrace() call
-* gdb and debug symbols
-* Tracing: Poor Man's Profiler
-* core files and backtrace gdb command
-* Observability: top
-* Observability: atop
-* Observability: mpstat
-* Observability: iostat
-* Observability: pidstat
-* Observability: iotop
-* Observability: cat /proc/interrupts
-* Observability: Munin
-* Observability: Zabbix and time series databases
-* Observability: Graphite stack
-* Observability: netdata
-* Observability: perf
-* Observability: DTrace
-* Observability: BPF and BPF tools
-* Observability: flamegraphs
-* Observability: kaldur
-* Observability: flamegraphs and dynamic languages
-* Homework: show your code
-* Homework: writing a reference implementation
-* A word on package managers
-* RPM and dpkg
-* Docker and Nix
-* Homework: creating a Debian package using FPM
-* Homework: creating a Debian package using checkinstall
-* Homework: creating a Debian repo
-* Homework: stress testing using ab
-* Homework: stress testing using siege
-* Homework: writing an upstart service definition file
-* Homework: writing a systemd unit file
+* Процесс Git flow
+* Понятие наблюдаемости (observability)
+* Средства observability в Linux: матрица Брэндана Грегга
+* Средства трассировки: strace
+* Средства трассировки: ltrace
+* Средства трассировки: системный вызов ptrace()
+* Отладчик gdb и отладочные символы
+* Средства трассировки: Poor Man's Profiler
+* Файлы core и команда отладчика gdb "backtrace"
+* Наблюдаемость: утилита top
+* Наблюдаемость: утилита atop
+* Наблюдаемость: утилита mpstat
+* Наблюдаемость: утилита iostat
+* Наблюдаемость: утилита pidstat
+* Наблюдаемость: утилита iotop
+* Наблюдаемость: cat /proc/interrupts
+* Наблюдаемость: система Munin
+* Наблюдаемость: система Zabbix и time-series базы данных
+* Наблюдаемость: стек Graphite
+* Наблюдаемость: система netdata
+* Наблюдаемость: утилита и подсистема perf
+* Наблюдаемость: подсистема DTrace
+* Наблюдаемость: подсистема BPF и утилиты BPF
+* Наблюдаемость: flamegraphs
+* Наблюдаемость: система kaldur
+* Наблюдаемость: flamegraphs и динамические языки
+* Домашняя работа: рассмотрение готового кода
+* Домашняя работа: совместное написание кода
+* Понятие пакетных менеджеров
+* Пакетные менеджеры RPM и dpkg
+* Системы Docker и Nix
+* Домашняя работа: создание пакета под Debian с использованием FPM
+* Домашняя работа: создание пакета под Debian с использованием checkinstall
+* Домашняя работа: создание репозитория Debian
+* Домашняя работа: стресс-тестирование с использованием ab
+* Домашняя работа: стресс-тестирование с использованием siege
+* Домашняя работа: написание файла-описателя сервиса для upstart
+* Домашняя работа: написание файла-описателя сервиса для systemd
