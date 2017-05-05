@@ -98,43 +98,43 @@
 * Сетевое взаимодействие: LDAP
 
 ## День 4
-* Networking: netfilter and iptables
-* Networking: port knocking
-* Networking: ipset
-* Networking: NAT (SNAT, DNAT) and masquerading
-* Networking: conntrack table
-* Networking: FTP
-* Networking: SSH, scp and SFTP
-* Networking: ssh-agent
-* Networking: HTTP
-* Networking: Apache and nginx
-* Networking: rsync and rsyncd
-* Networking: netcat
-* A word on scripting (dynamic vs static languages)
-* Bash scripting: interactive and non-interactive mode, config files
-* Bash scripting: variables and exporting
-* Bash scripting: built-ins
-* Bash scripting: globs
-* Bash scripting: control structures (if, case, for)
-* Bash scripting: test command and test built-in
-* Bash scripting: magic variables ($? and so on)
-* Bash scripting: debugging
-* Bash scripting: arrays
-* Writing a simple program in bash
-* >, >> and <
-* Unix commands: wc, cat, cut, sort
-* Unix commands: awk and sed 
-* Unix commands: find
-* Unix commands: xargs
-* Bash scripting: defensive programming
-* A word on Perl scripting
-* Source control systems: non-distribited and distribiuted
-* Source control systems: git
-* Creating and cloning a git repo
-* Git: config variables and origin repos
-* Anatomy of a git repository
-* Git: working copy, non-bare and bare repositories
-* Git: branching, merging and rebasing
+* Сетевое взаимодействие: подсистема netfilter и утилита iptables
+* Сетевое взаимодействие: механизм port knocking
+* Сетевое взаимодействие: модуль ipset
+* Сетевое взаимодействие: механизм NAT (SNAT, DNAT) и masquerading
+* Сетевое взаимодействие: таблица трекинга соединений
+* Сетевое взаимодействие: сервис FTP
+* Сетевое взаимодействие: сервис SSH, подсистемы scp и SFTP
+* Сетевое взаимодействие: утилита ssh-agent
+* Сетевое взаимодействие: протокол HTTP
+* Сетевое взаимодействие: веб-серверы Apache и nginx, их отличия
+* Сетевое взаимодействие: утилиты rsync and rsyncd
+* Сетевое взаимодействие: утилита netcat
+* Понятие скриптинга (разница между статическими и динамическими языками)
+* Скриптинг на bash: интерактивный и неинтерактивный режим, конфигурационные файлы и порядок их применения
+* Скриптинг на bash: переменные и экспорт переменных
+* Скриптинг на bash: встроенные команды bash
+* Скриптинг на bash: globs
+* Скриптинг на bash: управляющие структуры (if, case, for)
+* Скриптинг на bash: команда test и встроенная команда test
+* Скриптинг на bash: "магические" переменные ($? и так далее)
+* Скриптинг на bash: отладка
+* Скриптинг на bash: массивы
+* Написание простой программы на bash
+* Перенаправление ввода/вывода: >, >> and <
+* Команды Unix: wc, cat, cut, sort
+* Команды Unix: awk и sed 
+* Команды Unix: find
+* Команды Unix: xargs
+* Скриптинг на bash: защитное программирование
+* Краткое знакомство со скриптингом на языке Perl
+* Системы контроля версий: централизованные и распределенные
+* Системы контроля версий: git
+* Создание и клонирование репозитория git
+* Git: конфигурация и понятие вышестоящего репозитория
+* Устройство репозитория git
+* Git: рабочая копия, "bare" и не-"bare" репозитории
+* Git: branching, merging и rebasing
 
 ## День 5
 * Git flow
