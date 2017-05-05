@@ -1,4 +1,4 @@
-## Day 1
+## День 1
 * Введение (краткая история Unix и Linux, диаграмма эволюции Unix https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
 * Unix консоль как интерфейс к системе
 * Демонстрация работы в консоли: ls -alF and ps
@@ -21,44 +21,44 @@
 * Файловые системы: ZFS, алгоритм CoW, ARC, снэпшоты
 * Утилита smartctl, SMART long tests
 
-## Day 2
-* Filesystems: snapshots as a part of DRP strategy
-* Filesystems: BTRFS
-* Filesystems: /dev, /proc, /sys
-* Filesystems: fdisk, cfdisk, parted, ADF drives
-* Filesystems: 'file' command
-* Users: /etc/passwd and its fields
-* Users: superusers (UID 0 and mapping of names to UIDs) and ordinary users
-* Users: UNIX security model
-* UNIX security model: PAM
-* UNIX security model: su and sudo
-* UNIX security model (filesystems): traditional rights
-* File permissions and flags: rwx bits
-* File permissions and flags: SUID and SGID bit
-* File permissions and flags: sticky bit
-* UNIX security model (filesystems): extended attributes, SELinux and other MAC/RBAC frameworks (GRSecurity, Tomoyo)
-* UNIX security model (filesystems): POSIX ACLs
-* AppArmor and its caveats
-* Memory model: used memory, swap and RSS
-* Memory model: zram
-* Memory model: KSM and UKSM
-* Memory model (filesystems): block cache
-* Processes and IPC: starting a program from a binary file
-* Processes and IPC: dynamic linking and dynamic linker/loader
-* Processes and IPC: magic numbers
-* Processes and IPC: standard file descriptors
-* Processes and files: file descriptors, standard read/write API
-* Processes and files: ioctls and asynchronous processing
-* Processes and IPC: parents and children, fork() and exec(), CoW again
-* Processes and IPC: pipes
-* Processes and IPC: signals and signal handlers, 'kill' command, SIGKILL
-* Processes and IPC: standard signals
-* Processes and IPC: multithreading, 1:1 and N:M threads
-* Processes and IPC: limits (and /proc/XXXX/limits), ulimit, /etc/security/limits.conf
-* Processes and IPC: shmem, semaphores, UNIX sockets
-* Homework: Vagrant
+## День 2
+* Файловые системы: снэпшоты как часть Disaster Recovery Plan
+* Файловые системы: BTRFS
+* Файловые системы: псевдо-файловые системы /dev, /proc, /sys
+* Файловые системы: утилиты разметки fdisk, cfdisk, parted, работа с дисками в Advanced Format
+* Файловые системы: утилита file
+* Пользователи: файл /etc/passwd и его поля
+* Пользователи: суперпользователи (понятие UID, соответствие UID и имен, UID 0) и обычные пользователи
+* Пользователи: модель безопасности Unix
+* Модель безопасности Unix: подсистема PAM
+* Модель безопасности Unix: su и sudo
+* Модель безопасности Unix применительно к файловым системам: традиционные права
+* Права на файлы и флаги: биты rwx
+* Права на файлы и флаги: биты SUID и SGID
+* Права на файлы и флаги: sticky bit
+* Модель безопасности Unix применительно к файловым системам: расширенные атрибуты, SELinux и другие MAC/RBAC фреймворки (GRSecurity, Tomoyo)
+* Модель безопасности Unix применительно к файловым системам: POSIX ACLs
+* AppArmor и его проблемы
+* Модель памяти: использованная память, swap и RSS
+* Модель памяти: zram
+* Модель памяти: KSM и UKSM
+* Модель памяти применительно к файловым системам: block cache
+* Процессы и межпроцессное взаимодействие: порядок запуска программы из бинарного файла на диске
+* Процессы и межпроцессное взаимодействие: динамическая линковка и динамический линкер/загрузчик
+* Процессы и межпроцессное взаимодействие: magic numbers
+* Процессы и межпроцессное взаимодействие: стандартные файловые дескрипторы
+* Процессы и файлы: файловые дескрипторы, стандартный API для чтения/записи
+* Процессы и файлы: системный вызов ioctl и асинхронная обработка
+* Процессы и межпроцессное взаимодействие: процесс-родитель и процесс-потомок, вызовы fork() и exec(), еще раз про алгоритм CoW
+* Процессы и межпроцессное взаимодействие: пайпы
+* Процессы и межпроцессное взаимодействие: сигналы и обработчики сигналов, утилита kill, сигнал SIGKILL и его особенности
+* Процессы и межпроцессное взаимодействие: стандартные сигналы
+* Процессы и межпроцессное взаимодействие: многопоточность, отображения потоков 1:1 и N:M
+* Процессы и межпроцессное взаимодействие: лимиты (и /proc/XXXX/limits), утилита ulimit, файл /etc/security/limits.conf
+* Процессы и межпроцессное взаимодействие: разделяемая память, семафоры, UNIX-сокеты
+* Домашняя работа: система Vagrant
 
-## Day 3
+## День 3
 * Processes and IPC: niceness, 'nice' and 'ionice' commands
 * Linux boot process: BIOS and UEFI
 * Linux boot process: BIOSes on various hardware
@@ -97,7 +97,7 @@
 * Networking: Samba
 * Networking: LDAP
 
-## Day 4
+## День 4
 * Networking: netfilter and iptables
 * Networking: port knocking
 * Networking: ipset
@@ -136,7 +136,7 @@
 * Git: working copy, non-bare and bare repositories
 * Git: branching, merging and rebasing
 
-## Day 5
+## День 5
 * Git flow
 * A word on observability
 * Linux observability tools: Brendan Gregg's matrix
