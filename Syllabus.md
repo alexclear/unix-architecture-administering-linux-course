@@ -1,5 +1,5 @@
 ## Day 1
-* Intorduction (a word on Unix and Linux, a Unix evolution diagram https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
+* Introduction (a word on Unix and Linux, a Unix evolution diagram https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
 * Unix console as an interface to everything else
 * Demo time: ls -alF and ps
 * The beauty of Linux console: zsh and oh-my-zsh
